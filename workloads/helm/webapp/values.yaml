@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: fsds/argocd-course-webapp
+  repository: mninawa/umnaka-microservices-policy
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "9dbc07045cd3502b9863803b21356cd5ec2a93eb"
+  tag: "v0.1.0"
 
 imagePullSecrets: []
 nameOverride: ""
