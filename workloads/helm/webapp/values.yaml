@@ -52,7 +52,7 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
-  type: alb
+  type: LoadBalancer
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
